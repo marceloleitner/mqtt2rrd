@@ -1,0 +1,16 @@
+[translations]
+# match regex = rrd file
+#                 .rrd will be appended automatically
+greenery/solution_temperature = solution_temperature
+greenhouse/temperature = greenhouse_temperature
+greenhouse/humidity = greenhouse_humidity
+
+[subscribes]
+# Only the keys are used, the values are ignored.
+greenhouse/# =
+
+[server]
+host = 127.0.0.1
+port = 1883
+user = user
+passwd = passwd
